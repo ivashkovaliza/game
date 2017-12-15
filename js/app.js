@@ -52,7 +52,6 @@ function init() {
 }
 
 resources.load([
-    'img/sprites.png',
     'img/space_background.jpg',
     'img/sprites_new.png'
 ]);
