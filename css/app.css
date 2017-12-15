@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top:0;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 1.3em auto 0 auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#instructions {
+    font-family: sans-serif;
+    color: #757575;
+}
+
+#current-score {
+    color: white;
+    font-size: 2em;
+    margin-left: 0.3em;
+}
+#best-score {
+    color: white;
+    font-size: 2em;
+    margin-left: 0.3em;
+}
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key {
+    color: #b4f6ff;
+}
+
+#game-over, #game-over-overlay {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+#game-start, #game-start-overlay {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: none;
+}
+
+#game-over-overlay, #game-start-overlay {
+    background-color: black;
+    opacity: 0.5;
+}
+
+#game-over, #game-start {
+    height: 220px;
+    text-align: center;
+    color: white;
+}
+
+#game-over h1, #game-start h1 {
+    font-size: 3em;
+}
+
+#game-over p, #game-start p {
+    font-size: 2em;
+}
+
+#game-over button, #game-start button {
+    font-size: 1.5em;
+    outline: none;
+}
+#wrapper .fa-volume-down {
+    font-size: 3em;
+}
+#wrapper .fa-volume-down:hover {
+    color: #757575;
+}
+
+#attention-ufos {
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+#space-background {
+    background: url("../img/space_background.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

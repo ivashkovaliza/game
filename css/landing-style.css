@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height:100%;
+}
+body {
+    min-height: 100%;
+    padding-bottom: 80px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px ;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #e9ebf8;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-and-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.logo-text p:first-child {
+    text-transform: uppercase;
+    color: #e9ebf8;
+    font-size: 30px;
+}
+.logo-text p:last-child {
+    color: #db343f;
+    font-size: 20px;
+}
+.logo-img{
+    background: url("../img/rocket.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+nav ul {
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    color: #e9ebf8;
+}
+nav li {
+    margin-left: 40px;
+}
+a:hover {
+    color: #fe3b46;
+    cursor: pointer;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    min-height: 80px;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    background: url('../img/space_background.jpg') no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.play-block {
+    height: 230px;
+    background-color: #e9ebf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.play p {
+    font-size: 24px;
+    color: #666666;
+}
+button {
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #db343f;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+}
+button:hover {
+    background-color: #fe3b46;
+}
+.icon-bg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #1d2f55;
+    color: white;
+    font-size: 55px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.info-point {
+    width: 230px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-point p {
+    margin-top: 5px;
+}
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.about-block {
+    margin-top: 40px;
+}
+.controls-block {
+    margin-top: 40px;
+
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.controls p {
+    margin-top: 20px;
+}
+.wasd-arrow-controls {
+    margin-top: 25px;
+    background-image: url("../img/arrow-wasd-control.png");
+    width: 500px;
+    height: 146px;
+}
+.control-btn {
+    color: #db343f;
+    font-weight: 700;
+}
+footer {
+    height: 80px;
+    background-color: #1d2f55;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+footer p {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.screenshots-block {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screenshots-block p {
+    font-style: italic;
+    margin-top: 10px;
+}
+.screenshots-block img {
+    width: 70%;
+    margin-top: 20px;
+}
+.fa-github {
+    font-size: 40px;
+    margin-left: 10px;
+}
